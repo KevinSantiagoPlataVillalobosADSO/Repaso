@@ -48,3 +48,8 @@
     color: var(--color-link);
     font-size: 25px;
 }
+.main_content{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
