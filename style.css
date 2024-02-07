@@ -12,9 +12,11 @@
     --width-icono_boton: 50px;
     --heigth-icono_boton: 50px;
     --color-link: #BB004F;
-
+    --color-white: #FFFFFF;
     --padding-side: 1rem;
     --more-color: #FFF3F3;
+    --color-button: #FF007A; 
+    --color-button-hover: #cf0064;
 }
 
 .navbar{
@@ -46,10 +48,108 @@
 .Link__navbar{
     text-decoration: none;
     color: var(--color-link);
-    font-size: 25px;
+    font-size: 20px;
 }
+
+/* SECCIONES */
+
 .main_content{
     max-width: 100%;
     margin: 0 auto;
 }
 
+/* SECCION 1 */
+
+.div_seccion1{
+    background-color: #BB004F;
+    height: 751px;
+    width: 100%;
+    background-image: url(Rectangle\ 4.png);
+    background-size: cover;
+}
+
+.caja_seccion1{
+    position: relative;
+    width: 446px;
+    height: 276px;
+    margin-left: 70%;
+    top: 200px;
+    color: var(--color-white);
+}
+
+.div__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+    width: 181px;
+    height: 50px;
+    background-color: var(--color-button);
+    
+}
+
+.title_class1--seccion1{
+    font-size: 64px;
+}
+
+.title_class3--seccion1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Button__seccion1{ 
+    font-size: 16px;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.div__button:hover{
+    background-color: var(--color-button-hover);
+}
+
+/* SECCIÓN 2 */
+
+.div_seccion2{
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.caja_title{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_class2--seccion2{
+    font-size: 48px;
+}
+
+.content_img{
+    display: grid;
+    grid-template-columns: repeat(3, 100px) 50px repeat(2, 100px) 160px 100px;
+    grid-template-rows: repeat(6, 100px);
+}
+
+.IMG1{
+    grid-column-start: 8;
+    grid-row-start: 1;
+}
+
+.IMG2{
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+.IMG3{
+    grid-column-start: 5;
+    grid-row-start: 4;
+}
+
+.caja_text--seccion2{
+    background-color: #BB004F;
+    position: absolute;
+    margin-left: 50%;
+    top: 0;
+}
