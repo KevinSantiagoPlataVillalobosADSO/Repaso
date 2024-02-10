@@ -129,6 +129,11 @@
     font-size: 48px;
 }
 
+.caja_img--text2{
+    display: flex;
+    justify-content: space-around;
+}
+
 .content_img{
     display: grid;
     grid-template-columns: repeat(3, 100px) 50px repeat(2, 100px) 160px 100px;
@@ -187,11 +192,11 @@
     transform: scale(1.02)
 }
 
-.caja_text--seccion2{
+/* .caja_text--seccion2{
     position: absolute;
     margin-left: 60%;
     margin-top: -500px;
-}
+} */
 
 .title_class3--seccion2{
     font-size: 36px;
@@ -240,6 +245,78 @@
 /* 
 SECCION4 */
 
-.div_seccion4{
+.cj_sc4{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.title_class2--seccion4{
+    font-size: 48px;
+}
+
+.caja_img--seccion4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+}
+
+.img_seccion4{
+    width: 90%;
+    height: 90%;
+}
+
+/* SECCION5 */
+
+.cj_sc5{
+    font-size: 48px;
+}
+
+.caja_cards{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    transform: scale(1.2);
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.card3{
+    transform: rotate(2deg);
+}
+
+.card2{
+    transform: rotate(-2deg);
+}
+
+/* SECCION6 */
+
+.div_seccion6{
+    margin-top: 100px;
+    padding-top: 100px;
+    background-image: url(rosefn.png);
+    background-size: 100%;
+    background-position: 10px;
+    height: 745px;
+    width: 100%;
     
 }
+
+.title_class1--seccion6{
+    margin-top: 180px;
+    font-size: 48px;
+    color: var(--color-white);
+
+}
+
+.title_class2--seccion6{
+    font-size: 40px;
+    color: var(--color-white);
+}
+
+/* CONTACTO */
