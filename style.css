@@ -854,6 +854,10 @@ SECCION4 */
 }
 @media (max-width: 600px)
 {
+    .div_seccion1{
+        background-size: 1000px 100%;
+    }
+
     .Ul__navbar{
         display: none;
     }
@@ -873,6 +877,10 @@ SECCION4 */
         width: 100%;
         height: 100%;
         margin: none;
+    }
+
+    .div_seccion3{
+        background-position-x: 1200px;
     }
     
     .card2{
@@ -901,6 +909,10 @@ SECCION4 */
     .caja_title{
         font-size: 30px;
         margin-bottom: -30px;
+    }
+
+    .div_seccion5{
+        margin-bottom: -100px;
     }
 
     .content_contact{
