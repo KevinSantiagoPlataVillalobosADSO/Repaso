@@ -18,6 +18,7 @@
     --color-button: #FF007A; 
     --color-button-hover: #cf0064;
     --color-gray-mood: #545454;
+    --color-gray-still: #e4e4e4;
 }
 
 
@@ -247,11 +248,11 @@ SECCION4 */
 
 .cj_sc4{
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 }
 
 .title_class2--seccion4{
-    font-size: 48px;
+    font-size: 60px;
 }
 
 .caja_img--seccion4{
@@ -284,14 +285,22 @@ SECCION4 */
     transform: scale(1.2);
     padding-left: 120px;
     padding-right: 120px;
+    width: 80%;
+    height: 60%;
 }
 
 .card3{
     transform: rotate(2deg);
+    width: 80%;
+    height: 60%;
+    margin-left: -20%;
 }
 
 .card2{
     transform: rotate(-2deg);
+    width: 80%;
+    height: 60%;
+    margin-right: -20%;
 }
 
 /* SECCION6 */
@@ -300,23 +309,44 @@ SECCION4 */
     margin-top: 100px;
     padding-top: 100px;
     background-image: url(rosefn.png);
-    background-size: 100%;
+    background-size: 120%;
     background-position: 10px;
     height: 745px;
     width: 100%;
-    
+    background-repeat: no-repeat;
 }
 
 .title_class1--seccion6{
     margin-top: 180px;
-    font-size: 48px;
+    font-size: 200%;
     color: var(--color-white);
 
 }
 
 .title_class2--seccion6{
-    font-size: 40px;
+    font-size: 150%;
     color: var(--color-white);
 }
 
 /* CONTACTO */
+
+.div_seccion7{
+    height: 500px;
+    background-color: var(--color-gray-still);
+    
+}
+
+.title_class1--contacto{
+    color: var(--color-link);
+    font-size: 60px;
+}
+
+.content_contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja_contact{
+    font-size: 32px;
+}
+
